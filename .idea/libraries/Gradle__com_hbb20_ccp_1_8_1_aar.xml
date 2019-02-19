@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hbb20:ccp:1.8.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ccp-1.8.1.aar/fd4aa13a5621827503221d46051044ce/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ccp-1.8.1.aar/fd4aa13a5621827503221d46051044ce/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hbb20/ccp/1.8.1/c3c3317365415c41ceacc7bf12ed9f770b10c87c/ccp-1.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

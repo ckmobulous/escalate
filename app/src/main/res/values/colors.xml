@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#4c286b</color>
+    <color name="colorPrimaryDark">#4c286b</color>
+    <color name="colorAccent">#4c286b</color>
+    <color name="black">#000000</color>
+    <color name="edt_def_hint_color">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="header_color">#FFFFFF</color>
+    <color name="darker_gray">#a7a7a7</color>
+
+    <color name="txt_header_color" tools:ignore="MissingDefaultResource">#FFFFFF</color>
+
+    <color name="edt_def_hint_color_fade" tools:ignore="MissingDefaultResource">#10808080</color>
+    <color name="gener_colour_orange">#f3bd75</color>
+    <color name="gener_colour_pink">#d4a1ec</color>
+    <color name="gener_colour_blue">#a6c4f1</color>
+    <color name="gener_colour_green">#b5dd7a</color>
+    <color name="otp_sroke_color" tools:ignore="MissingDefaultResource">#50000000</color>
+    <color name="black_30">#eeeeee</color>
+    <color name="black_50" tools:ignore="MissingDefaultResource">#50000000</color>
+    <color name="text_gray">#737373</color>
+    <color name="txt_black">#1b191d</color>
+
+    <color name="colorFollowing">#64c34d</color>
+    <color name="blue">#5d3183</color>
+    <color name="colorHeart">#cc3a3a</color>
+    <color name="failure_red">#dc3131</color>
+    <color name="app_color">#4c286b</color>
+    <color name="app_color_trans">#604c286b</color>
+    <color name="black_transparancy">#CC000000</color>
+</resources>

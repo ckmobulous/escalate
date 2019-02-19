@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="rectangle"
+    tools:ignore="MissingDefaultResource">
+
+    <corners
+        android:bottomRightRadius="@dimen/dp_10"
+        android:bottomLeftRadius="@dimen/dp_10"
+        android:topRightRadius="@dimen/dp_10"
+        android:topLeftRadius="@dimen/dp_10"
+        ></corners>
+    <stroke android:color="@color/text_gray"
+        android:width="@dimen/dp_1"></stroke>
+
+</shape>

@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\chat_list.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\chat_list.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_dialog_bottom_sheet.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\content_dialog_bottom_sheet.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_home_adapter.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\recycler_home_adapter.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_log_in.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_log_in.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_comment.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_comment.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tag_search_list.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\tag_search_list.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_search.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_post.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_post.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\single_row_home_post.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\single_row_home_post.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_other_profile.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_other_profile.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_pass.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_change_pass.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_post_queries.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_post_queries.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recent_search_list.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\recent_search_list.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\comment_list_home.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\comment_list_home.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_people_adapter.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\recycler_people_adapter.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_reply.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_reply.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\single_row_replies_post.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\single_row_replies_post.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_reset_pass.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_reset_pass.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_follower_adapter.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\recycler_follower_adapter.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notification.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_topic_detail.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_topic_detail.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_proceed.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_proceed.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tags.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_tags.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\single_row_posts.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\single_row_posts.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tag_detail.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_tag_detail.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_replies_adapter.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\recycler_replies_adapter.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sign_up.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user_frofile.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_user_frofile.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\search_category.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\search_category.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_setting.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\inlcude_filter_layout.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\inlcude_filter_layout.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_notification_adapter.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\recycler_notification_adapter.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\topic_search_adapter.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\topic_search_adapter.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_recent.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_recent.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_people.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_people.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_terms_condition.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_terms_condition.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_chat_list_adapter.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\recycler_chat_list_adapter.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recycler_gener_adapter.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\recycler_gener_adapter.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_topic.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\fragment_topic.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_update_user.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_update_user.xml"
+    },
+    {
+        "merged": "D:\\WorksationBisht\\escalate\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forgot_password.xml",
+        "source": "D:\\WorksationBisht\\escalate\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    }
+]

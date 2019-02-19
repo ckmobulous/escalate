@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/topicDetailLay"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            app:cardBackgroundColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/linear_view_other"
+                    android:padding="@dimen/dp_3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<ImageView
+                        android:id="@+id/img_user"
+                        android:src="@drawable/home_prfl_a"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp" />-->
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/imgViewTopic"
+                        android:layout_width="@dimen/_36sdp"
+                        android:layout_height="@dimen/_36sdp"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:padding="@dimen/dp_5"
+                        android:visibility="gone"
+                        android:background="@color/colorPrimaryDark"
+                        android:src="@drawable/default_image"
+                        app:riv_border_color="@android:color/transparent"
+                        />
+
+                    <RelativeLayout
+                        android:layout_marginStart="@dimen/_3sdp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_alignParentStart="true"
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_10"
+                            android:layout_height="wrap_content">
+                            <TextView
+
+                                android:id="@+id/topic_nameTxt"
+                                android:text=""
+                                android:textSize="@dimen/sp_16"
+                                android:textStyle="bold"
+                                style="@style/MyTextView"
+                                android:fontFamily="@font/seguisb_0"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:text=""
+                                android:id="@+id/num_of_postTxt"
+                                android:textSize="@dimen/sp_12"
+                                android:layout_marginStart="@dimen/dp_0"
+                                android:textStyle="bold"
+                                style="@style/MyTextView"
+                                android:maxLines="1"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/edt_def_hint_color_fade"
+                    />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
+</layout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+
+            app:cardBackgroundColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/linear_view_other"
+                    android:padding="@dimen/dp_3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/userIv"
+                        android:src="@drawable/home_prfl_a"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp" />
+
+                    <RelativeLayout
+                        android:layout_marginLeft="@dimen/_3sdp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_alignParentLeft="true"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="@dimen/dp_10"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/nameTxt"
+                                android:text="Johnnathan Clay"
+                                android:textSize="@dimen/sp_16"
+                                android:textStyle="bold"
+                                style="@style/MyTextView"
+                                android:fontFamily="@font/seguisb_0"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:text="#Trump"
+                                android:id="@+id/tvHashTag"
+                                android:textSize="@dimen/sp_12"
+                                android:layout_marginStart="@dimen/dp_0"
+                                android:layout_marginTop="@dimen/dp_5"
+                                style="@style/MyTextView"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:orientation="vertical"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/dp_15"
+                                android:layout_marginTop="@dimen/dp_3"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/comment_mute"
+                                    android:layout_marginRight="@dimen/dp_15"
+                                    />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/home_autoplay"
+                                    />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/event_ll"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_13"
+                    android:layout_marginRight="@dimen/dp_13"
+                    android:layout_marginBottom="@dimen/dp_13">
+
+
+                <!--<RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10">
+
+                    <ImageView
+                        android:id="@+id/playPauseIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/home_pause_a"
+                        />
+                    <rm.com.audiowave.AudioWaveView
+                        android:id="@+id/wave"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        app:chunkHeight="6dp"
+                        app:chunkRadius="1dp"
+                        app:chunkSpacing="2dp"
+                        app:chunkWidth="2dp"
+                        app:touchable="false"
+                        app:minChunkHeight="4dp"
+                        app:progress="0"
+                        android:layout_margin="@dimen/dp_4"
+                        app:animateExpansion="true"
+                        app:waveColor="@color/colorPrimary"
+                        android:layout_toStartOf="@+id/playPauseIv"
+                        android:layout_toEndOf="@+id/timeTxt"
+                        />
+
+                    <TextView
+                        android:id="@+id/timeTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="00:40"
+                        android:layout_centerVertical="true"
+                        android:textSize="@dimen/sp_10"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:textStyle="bold"
+                        style="@style/MyTextView"
+                        android:layout_centerHorizontal="false"
+                        android:textColor="@color/black"/>
+
+                </RelativeLayout>-->
+
+                    <RelativeLayout
+                        android:id="@+id/rl_player"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/playPauseIv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:padding="@dimen/dp_6"
+                            android:src="@drawable/home_play_a" />
+
+
+                        <rm.com.audiowave.AudioWaveView
+                            android:id="@+id/wave"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            app:chunkHeight="6dp"
+                            app:chunkRadius="1dp"
+                            app:chunkSpacing="2dp"
+                            app:chunkWidth="2dp"
+                            app:touchable="true"
+                            app:minChunkHeight="4dp"
+                            app:progress="0"
+                            android:layout_margin="@dimen/dp_4"
+                            app:animateExpansion="true"
+                            app:waveColor="@color/colorPrimary"
+                            android:layout_toStartOf="@+id/txtTimer"
+                            android:layout_toEndOf="@+id/playPauseIv"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/txtTimer"
+                            style="@style/MyTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerHorizontal="false"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:text="00:40"
+                            android:layout_marginStart="@dimen/dp_4"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp_12"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/descptnTxt"
+                        style="@style/MyTextView"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/sp_14"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dp_7"
+                        android:text="@string/lorem_ipsum_"
+                        android:maxLines="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+</layout>

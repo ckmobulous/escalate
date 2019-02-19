@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.bluecabin.textoo:textoo:1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/textoo-1.0.1.aar/0637e3b0f705d46880cfece01074ef9a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/textoo-1.0.1.aar/0637e3b0f705d46880cfece01074ef9a/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bluecabin.textoo/textoo/1.0.1/808ff7c3bd67c9bc9e30e5a356ac978409c9d577/textoo-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

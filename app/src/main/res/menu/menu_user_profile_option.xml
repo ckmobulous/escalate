@@ -1,0 +1,33 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.TestActivity">
+
+   <!-- <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/filter"
+        android:orderInCategory="100"
+        android:title="Cart"
+        app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/profile_setting"
+        android:orderInCategory="100"
+        android:title="Cart"
+        app:showAsAction="ifRoom" />
+
+   <!-- <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_header"
+        app:showAsAction="always"
+        android:title="Search"/>-->
+
+ <!--   <item
+        android:id="@+id/last_date_bid"
+        android:orderInCategory="100"
+        android:title="Select Last Date Bid"
+    />-->
+
+</menu>

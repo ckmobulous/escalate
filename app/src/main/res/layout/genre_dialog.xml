@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dp_10"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/genreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        android:gravity="center"
+        android:textColor="@color/edt_def_hint_color"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="You can select the categories you are interested in which will then populate your newsfeed"/>
+
+    <Button
+    android:id="@+id/btnOk"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_80sdp"
+    android:layout_marginEnd="@dimen/_80sdp"
+    android:layout_gravity="center"
+    android:text="OK"
+    android:background="@drawable/btn_gradient"
+    android:textColor="@color/white"
+    android:textAllCaps="false"
+    android:fontFamily="@font/segoeui_0"
+    android:layout_marginTop="@dimen/dp_40"
+    android:layout_marginBottom="@dimen/dp_20"
+    android:textSize="@dimen/sp_20"
+    android:paddingStart="@dimen/dp_30"
+    android:paddingEnd="@dimen/dp_30"
+    android:paddingBottom="@dimen/dp_4"
+    />
+
+</LinearLayout>

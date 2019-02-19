@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.UserProfileFragment"
+    >
+    <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/linear_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black_30"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black_30"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/black_30">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dp_15"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:id="@+id/linear_view_other"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/dp_3">
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/imgUserPro"
+                                    android:layout_width="@dimen/dp_100"
+                                    android:layout_height="@dimen/dp_100"
+                                    android:layout_marginStart="@dimen/dp_10"
+                                    android:layout_marginTop="@dimen/dp_20"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/default_image"
+                                    app:riv_border_color="@android:color/transparent"
+                                    app:riv_corner_radius="6dp"
+                                    app:riv_tile_mode="clamp" />
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginBottom="@dimen/dp_0"
+                                    android:layout_marginStart="@dimen/_3sdp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_marginStart="@dimen/dp_10"
+                                        android:orientation="vertical">
+                                        <TextView
+                                            android:id="@+id/nameTxtUsr"
+                                            style="@style/MyTextView"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="@dimen/dp_5"
+                                            android:fontFamily="@font/seguisb_0"
+                                            android:text=""
+                                            android:maxLength="16"
+                                            android:textColor="@color/black"
+                                            android:textSize="@dimen/sp_16"
+                                            android:textStyle="bold" />
+                                        <TextView
+                                            android:id="@+id/txtUsername"
+                                            style="@style/MyTextView"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="@dimen/dp_0"
+                                            android:layout_marginTop="@dimen/dp_5"
+                                            android:drawableStart="@drawable/login_username"
+                                            android:fontFamily="@font/segoeui_0"
+                                            android:maxLines="1"
+                                            android:text=""
+                                            android:drawablePadding="@dimen/dp_6"
+                                            android:maxLength="16"
+                                            android:textColor="@color/text_gray"
+                                            android:textSize="@dimen/sp_12" />
+
+                                        <TextView
+                                            android:id="@+id/txtPhone"
+                                            style="@style/MyTextView"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="@dimen/dp_0"
+                                            android:layout_marginTop="@dimen/dp_5"
+                                            android:drawableStart="@drawable/profile_callnew"
+                                            android:drawablePadding="@dimen/dp_6"
+                                            android:fontFamily="@font/segoeui_0"
+                                            android:maxLines="1"
+                                            android:text=""
+                                            android:maxLength="16"
+                                            android:textColor="@color/text_gray"
+                                            android:textSize="@dimen/sp_12" />
+
+                                        <TextView
+                                            android:id="@+id/txtMailUsr"
+                                            style="@style/MyTextView"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="@dimen/dp_0"
+                                            android:layout_marginTop="@dimen/dp_5"
+                                            android:drawableStart="@drawable/profile_mailllnew"
+                                            android:drawablePadding="@dimen/dp_6"
+                                            android:fontFamily="@font/segoeui_0"
+                                            android:maxLines="1"
+                                            android:text=""
+                                            android:textColor="@color/text_gray"
+                                            android:textSize="@dimen/sp_12" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentEnd="true"
+                                        android:orientation="vertical">
+                                        <LinearLayout
+                                            android:id="@+id/editProLay"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginEnd="@dimen/dp_10"
+                                            android:layout_marginTop="@dimen/dp_5"
+                                            android:background="@drawable/edittext_mic_background"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+                                            <TextView
+                                                android:id="@+id/txtProfile"
+                                                style="@style/MyTextView"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/segoeui_0"
+                                                android:paddingBottom="@dimen/dp_5"
+                                                android:paddingLeft="@dimen/dp_10"
+                                                android:paddingRight="@dimen/dp_10"
+                                                android:paddingTop="@dimen/dp_5"
+                                                android:text="@string/edit_profile"
+                                                android:textColor="@color/black"
+                                                android:textSize="@dimen/sp_10"
+                                                android:textStyle="normal" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_15"
+                                android:layout_marginRight="@dimen/dp_15"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:id="@+id/bioLayUsr"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/dp_10">
+                                    <TextView
+                                        android:id="@+id/txt_bio"
+                                        style="@style/MyTextView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_centerVertical="true"
+                                        android:padding="@dimen/dp_2"
+                                        android:text="Bio"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_16"
+                                        android:textStyle="bold" />
+                                    <ImageView
+                                        android:id="@+id/imgPlayPauseUsr"
+                                        android:layout_width="@dimen/dp_30"
+                                        android:layout_height="@dimen/dp_30"
+                                        android:layout_centerVertical="true"
+                                        android:layout_toEndOf="@+id/txt_bio"
+                                        android:padding="@dimen/dp_2"
+                                        android:src="@drawable/home_play_a" />
+
+                                    <com.am.siriview.DrawView
+                                        android:id="@+id/siriDViewUsrPro"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/dp_30"
+                                        android:layout_marginEnd="@dimen/dp_5"
+                                        android:layout_marginStart="@dimen/dp_5"
+                                        android:layout_toEndOf="@+id/imgPlayPauseUsr"
+                                        android:layout_toStartOf="@+id/txtTimerUsr"
+                                        android:background="@color/black_30"
+                                        android:padding="@dimen/dp_5"
+                                        android:visibility="visible"
+                                        app:waveRefreshInterval="30"
+                                        app:wave_color="@color/colorPrimaryDark"
+                                        app:wave_count="4" />
+
+                                    <rm.com.audiowave.AudioWaveView
+                                        android:id="@+id/wavePro"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:layout_centerVertical="true"
+                                        android:layout_margin="@dimen/dp_4"
+                                        android:layout_toEndOf="@+id/imgPlayPauseUsr"
+                                        android:layout_toStartOf="@+id/txtTimerUsr"
+                                        android:visibility="gone"
+                                        app:animateExpansion="true"
+                                        app:chunkHeight="6dp"
+                                        app:chunkRadius="1dp"
+                                        app:chunkSpacing="2dp"
+                                        app:chunkWidth="2dp"
+                                        app:minChunkHeight="4dp"
+                                        app:progress="0"
+                                        app:touchable="false"
+                                        app:waveColor="@color/colorPrimary" />
+
+                                    <SeekBar
+                                        android:id="@+id/SeekBarUssr"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/dp_14"
+                                        android:layout_marginTop="@dimen/dp_5"
+                                        android:layout_toStartOf="@+id/txtTimerUsr"
+                                        android:layout_toEndOf="@+id/imgPlayPauseUsr"
+                                        android:progressDrawable="@drawable/seekbar_progress"
+                                        android:thumb="@android:color/transparent"
+                                        android:thumbTint="@android:color/transparent"
+                                        android:visibility="gone" />
+
+                                    <TextView
+                                        android:id="@+id/txtTimerUsr"
+                                        style="@style/MyTextView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_centerVertical="true"
+                                        android:padding="@dimen/dp_2"
+                                        android:text="00:00"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/sp_12"
+                                        android:textStyle="bold" />
+
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:id="@+id/txtGenreusr"
+                                    style="@style/MyTextView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/dp_0"
+                                    android:fontFamily="@font/segoeui_0"
+                                    android:maxLines="1"
+                                    android:text=""
+                                    android:textColor="@color/text_gray"
+                                    android:textSize="@dimen/sp_12" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear_profile"
+                android:background="@drawable/other_posts_background"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/linearPostUsr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/save_rectangle_back"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtPostsCountUsr"
+                        style="@style/MyTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:fontFamily="@font/segoeui_0"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtPostUsr"
+                        style="@style/MyTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp_5"
+                        android:fontFamily="@font/segoeui_0"
+                        android:text="@string/post"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearFollowerUsr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/save_rectangle_back_white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtCountFolowerU"
+                        style="@style/MyTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:fontFamily="@font/segoeui_0"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txtFollowerU"
+                        style="@style/MyTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp_5"
+                        android:fontFamily="@font/segoeui_0"
+                        android:text="@string/followers"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linearFollowingUsr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/save_rectangle_back_white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/txtCountFollowingU"
+                        style="@style/MyTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:fontFamily="@font/segoeui_0"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txtFollowingU"
+                        style="@style/MyTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp_5"
+                        android:fontFamily="@font/segoeui_0"
+                        android:text="@string/following"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_13"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/linear_box"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyVewUserPro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical"
+                    android:background="@color/white"/>
+                <TextView
+                    android:id="@+id/tvNoDataUsr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@string/no_data_found"
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:textSize="@dimen/sp_18"/>
+
+            </RelativeLayout>
+
+        <!--<RelativeLayout
+                android:id="@+id/relativeIncludeUsr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/appbarlayout"
+                android:visibility="gone">
+
+            <include layout="@layout/inlcude_filter_layout" />
+            </RelativeLayout>-->
+        </RelativeLayout>
+</layout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/linear_view_other"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/dp_3">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/img_user"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/dp_10"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:src="@drawable/default_image"
+                            app:riv_border_color="@android:color/transparent"
+                            app:riv_corner_radius="6dp"
+                            app:riv_tile_mode="clamp" />
+
+                        <ProgressBar
+                            android:id="@+id/progressBar"
+                            android:layout_width="@dimen/dp_20"
+                            android:layout_height="@dimen/dp_20"
+                            android:layout_margin="@dimen/dp_22"
+                            android:visibility="gone" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toEndOf="@+id/img_user">
+
+                            <LinearLayout
+                                android:id="@+id/detailLay"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="@dimen/dp_10"
+                                android:layout_marginTop="@dimen/dp_10"
+                                android:orientation="vertical">
+
+                                <TextView
+
+                                    android:id="@+id/tv_name"
+                                    style="@style/MyTextView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/seguisb_0"
+                                    android:text="Johnnathan Clay"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/sp_16"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:id="@+id/imgV_play_pause"
+                                    android:layout_width="@dimen/dp_25"
+                                    android:layout_height="@dimen/dp_25"
+                                    android:padding="@dimen/dp_5"
+                                    android:src="@drawable/home_play_a" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/linear_follow_back"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/dp_10"
+                                    android:layout_marginTop="@dimen/dp_20"
+                                    android:background="@drawable/btn_gradient"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/txt_follow"
+                                        style="@style/MyTextView"
+                                        android:layout_width="@dimen/dp_110"
+                                        android:layout_height="wrap_content"
+                                        android:drawablePadding="@dimen/dp_5"
+                                        android:drawableStart="@drawable/search_follow"
+                                        android:fontFamily="@font/segoeui_0"
+                                        android:paddingBottom="@dimen/dp_5"
+                                        android:paddingLeft="@dimen/dp_15"
+                                        android:paddingRight="@dimen/dp_15"
+                                        android:paddingTop="@dimen/dp_5"
+                                        android:text="@string/follow"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/sp_11"
+                                        android:textStyle="normal" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,2 @@
+# Referenced at D:\WorksationBisht\escalate\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:62
+-keep class com.escalate.utils.MyApplication { <init>(); }

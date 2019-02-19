@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.ChangePassActivity"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/white"
+        android:focusableInTouchMode="true"
+        tools:ignore="MissingDefaultResource">
+
+                <RelativeLayout
+                    android:id="@+id/topLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_12"
+                    android:background="@color/app_color"
+                    >
+                    <ImageView
+                        android:id="@+id/iVBackNoti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/forgot_pswrd_back"
+                        android:padding="@dimen/dp_5"
+                        android:contentDescription="@string/backiv"/>
+                    <TextView
+                        android:id="@+id/toolbar_title"
+                        android:layout_marginStart="@dimen/dp_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_horizontal"
+                        android:text="@string/notifications"
+                        android:textSize="@dimen/sp_16"
+                        android:fontFamily="@font/segoeui_0"
+                        android:textStyle="normal"
+                        style="@style/MyTextView"
+                        android:textColor="@color/white"
+                        android:layout_marginEnd="@dimen/dp_30"
+                        />
+                </RelativeLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshNotification"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/topLay">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recViewNotification"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <TextView
+            android:id="@+id/noDataTxtNoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_notification"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/sp_16"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</layout>

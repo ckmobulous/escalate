@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true"
+        tools:context=".activity.LoginActivity"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:layout_marginRight="@dimen/dp_15"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dp_70"
+                        android:contentDescription="@string/logo"
+                        android:layout_marginBottom="@dimen/dp_40"
+                        android:background="@drawable/login_logo" />
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tabsLogin"
+                        android:layout_below="@+id/img_logo"
+                        style="@style/customTabLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_36"
+                        android:layout_marginLeft="@dimen/dp_15"
+                        android:layout_marginRight="@dimen/dp_15"
+                        android:background="@android:color/transparent"
+                        app:tabGravity="fill"
+                        app:tabMode="fixed" />
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewpagerLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_430"
+                        android:layout_below="@id/tabsLogin"
+                        android:layout_alignParentBottom="true"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                </RelativeLayout>
+
+    </ScrollView>
+</layout>

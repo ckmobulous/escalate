@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "1021276106763",
+    "firebase_url": "https://escalate-551c1.firebaseio.com",
+    "project_id": "escalate-551c1",
+    "storage_bucket": "escalate-551c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021276106763:android:7cda1e4b466560b0",
+        "android_client_info": {
+          "package_name": "com.escalate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021276106763-kd1u86m71b63jin4qvu87c5c8qk18v13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.escalate",
+            "certificate_hash": "288592f53367abd12bdec27caf05464880d60d1b"
+          }
+        },
+        {
+          "client_id": "1021276106763-87v45gphsabm5dciielm1mgof4v4poba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.escalate",
+            "certificate_hash": "00201735c601ad2109cb6f71b213ec21992c9556"
+          }
+        },
+        {
+          "client_id": "1021276106763-u4vd6u2gl40h665lvrbdpep4na435qli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.escalate",
+            "certificate_hash": "ce7e0363aaa06d6182df90e2e54ff9a9d754a2e2"
+          }
+        },
+        {
+          "client_id": "1021276106763-hc2djdflp3a08ab6p052ldho3u5i521b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.escalate",
+            "certificate_hash": "c6406ae2b1c8ba165578518b0a9203d712feb99e"
+          }
+        },
+        {
+          "client_id": "1021276106763-ee63p374ahaq2j227gl69d03fk519spe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0hKSiL68UclwRPjXuqowWqAwZAoAiwN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021276106763-dobcaf3h7mnprhgo43go3vco005fcpk4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1021276106763-s6ftab0bb8qkkivtf2h7rqg7l3t556a7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mobulous.Escalate"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

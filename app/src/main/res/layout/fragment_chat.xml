@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ChatFragment"
+    android:background="@color/white"
+    >
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshChatt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/_60sdp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recViewHistory"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/noDataTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_chat_available"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:textSize="@dimen/sp_18"/>
+
+</RelativeLayout>
+</layout>

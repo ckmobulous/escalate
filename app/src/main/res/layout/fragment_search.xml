@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=""
+    android:background="@color/header_color"
+    android:orientation="vertical">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabsSearch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_36"
+            app:tabMode="fixed"
+            style="@style/customTabLayout"
+            app:tabGravity="fill"/>
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:enabled="true"
+            android:paddingStart="@dimen/dp_15"
+            android:padding="@dimen/dp_8"
+            android:background="@drawable/search_bar_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            style="@style/MyEditText"
+            android:singleLine="true"
+            android:paddingEnd="@dimen/dp_5"
+            android:imeOptions="actionDone"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginRight="@dimen/dp_15"
+            android:drawableStart="@drawable/search_heder"
+            android:textSize="@dimen/sp_15"
+            android:layout_marginTop="@dimen/dp_8"
+            android:drawablePadding="@dimen/dp_10"
+            android:inputType="text"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+</LinearLayout>
+</layout>

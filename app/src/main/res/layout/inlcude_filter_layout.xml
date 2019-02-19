@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context=".activity.HomeActivity"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/black_50"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             >
+
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/filter_selected"/>
+
+             <TextView
+                 android:text="@string/people"
+                 android:id="@+id/tv_1"
+                 android:textSize="@dimen/sp_14"
+                 android:layout_marginLeft="@dimen/dp_15"
+                 android:paddingTop="@dimen/dp_2"
+                 style="@style/MyTextView"
+                 android:maxLines="1"
+                 android:textColor="@color/black"
+                 android:fontFamily="@font/segoeui_0"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+               >
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/filter_unselected"/>
+
+                <TextView
+                    android:text="@string/tags"
+                    android:id="@+id/tv_"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:paddingTop="@dimen/dp_2"
+                    style="@style/MyTextView"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/segoeui_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/apply"
+                android:id="@+id/txtApply"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginEnd="@dimen/dp_70"
+                android:padding="@dimen/dp_5"
+                style="@style/MyTextView"
+                android:maxLines="1"
+                android:layout_gravity="right"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/segoeuib_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/cencel"
+                android:id="@+id/txt_cancel"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginEnd="@dimen/dp_15"
+                android:padding="@dimen/dp_5"
+                style="@style/MyTextView"
+                android:maxLines="1"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:fontFamily="@font/segoeui_0"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

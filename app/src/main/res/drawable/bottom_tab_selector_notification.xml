@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:drawable="@drawable/home_selected_chat"  android:state_checked="true"></item>
+
+    <item android:drawable="@drawable/home_shat_unselected" android:state_checked="false"></item>
+</selector>

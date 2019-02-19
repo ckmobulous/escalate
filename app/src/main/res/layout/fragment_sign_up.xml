@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_40"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:context=".fragments.LogInFragment">
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_25"
+            android:layout_margin="@dimen/dp_15"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:id="@+id/cv1"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_1"
+                android:layout_marginLeft="@dimen/dp_1"
+                android:layout_marginBottom="@dimen/dp_1"
+                card_view:cardCornerRadius="@dimen/dp_10"
+                card_view:cardElevation="@dimen/dp_2"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/edtFullName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/MyEditText"
+                        android:paddingTop="@dimen/dp_15"
+                        android:paddingBottom="@dimen/dp_10"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:hint="@string/full_name"
+                        android:drawablePadding="@dimen/dp_20"
+                        android:imeOptions="actionNext"
+                        android:cursorVisible="true"
+                        android:paddingEnd="@dimen/dp_30"
+                        android:maxLength="25"
+                        android:freezesText="true"
+                        android:textSize="@dimen/sp_14"
+                        android:drawableStart="@drawable/fullname"/>
+
+                    <requestFocus/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_1"
+                        android:background="@color/edt_def_hint_color_fade"/>
+
+                    <EditText
+                        android:id="@+id/edtUsrNamSinUp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/MyEditText"
+                        android:paddingTop="@dimen/dp_15"
+                        android:paddingBottom="@dimen/dp_10"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:hint="@string/username"
+                        android:drawablePadding="@dimen/dp_15"
+                        android:imeOptions="actionNext"
+                        android:cursorVisible="true"
+                        android:paddingEnd="@dimen/dp_30"
+                        android:maxLength="15"
+                        android:textSize="@dimen/sp_14"
+                        android:freezesText="true"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+                        android:drawableStart="@drawable/login_username"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_1"
+                        android:background="@color/edt_def_hint_color_fade"/>
+                    <EditText
+                        android:id="@+id/edtEmailSinUp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/MyEditText"
+                        android:paddingTop="@dimen/dp_15"
+                        android:paddingBottom="@dimen/dp_10"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:hint="@string/email"
+                        android:drawablePadding="@dimen/dp_15"
+                        android:imeOptions="actionNext"
+                        android:cursorVisible="true"
+                        android:paddingEnd="@dimen/dp_30"
+                        android:textSize="@dimen/sp_14"
+                        android:drawableStart="@drawable/forgot_pswrd_mail"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_1"
+                        android:background="@color/edt_def_hint_color_fade"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.hbb20.CountryCodePicker
+                            android:id="@+id/ccpSinUp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_0"
+                            android:drawablePadding="@dimen/dp_0"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/dp_0"
+                            app:showFlag="false"
+                            card_view:defaultNameCode="GB"
+                            android:gravity="center"
+                            app:textSize="@dimen/sp_14"
+                             style="@style/MyTextView"
+                            app:keyboardAutoPopOnSearch="false"
+                            />
+
+                        <EditText
+                            android:id="@+id/phnEtdTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/MyEditText"
+                            android:paddingTop="@dimen/dp_15"
+                            android:paddingBottom="@dimen/dp_10"
+                            android:layout_marginStart="@dimen/dp_10"
+                            android:hint="@string/phone_number"
+                            android:drawablePadding="@dimen/dp_15"
+                            android:imeOptions="actionNext"
+                            android:inputType="number"
+                            android:cursorVisible="true"
+                            android:paddingEnd="@dimen/dp_30"
+                            android:maxLength="15"
+                            android:textSize="@dimen/sp_14"
+                            android:drawableStart="@drawable/forgot_pswrd_call"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_1"
+                        android:background="@color/edt_def_hint_color_fade"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edtPaswrdSinUp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/MyEditText"
+                        android:hint="@string/password"
+                        android:paddingTop="@dimen/dp_15"
+                        android:paddingBottom="@dimen/dp_10"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:drawablePadding="@dimen/dp_15"
+                        android:paddingEnd="@dimen/dp_30"
+                        android:maxLength="10"
+                        android:textSize="@dimen/sp_14"
+                        android:drawableStart="@drawable/login_password"/>
+
+                        <ImageView
+                            android:id="@+id/imgEyePasWd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/login_unselected_eye"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="@dimen/dp_5"
+                            android:layout_centerVertical="true"
+                            android:padding="@dimen/dp_10"
+                            />
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_1"
+                        android:background="@color/edt_def_hint_color_fade"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edtCnfPaswrd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/MyEditText"
+                        android:hint="@string/cnf_password"
+                        android:paddingTop="@dimen/dp_15"
+                        android:paddingBottom="@dimen/dp_10"
+                        android:layout_marginStart="@dimen/dp_10"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:paddingEnd="@dimen/dp_30"
+                        android:drawablePadding="@dimen/dp_15"
+                        android:textSize="@dimen/sp_14"
+                        android:maxLength="10"
+                        android:drawableStart="@drawable/login_password"/>
+
+                        <ImageView
+                            android:id="@+id/imgCnfEvePasWd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/login_unselected_eye"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="@dimen/dp_5"
+                            android:layout_centerVertical="true"
+                            android:padding="@dimen/dp_10"
+                            />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/termsLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_below="@+id/linear"
+        android:layout_marginStart="@dimen/dp_15">
+        <ImageView
+            android:id="@+id/imgboxSup"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_22"
+            android:layout_centerVertical="true"
+            android:src="@drawable/login_tick_un"/>
+        <TextView
+            android:id="@+id/tvRemember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_12"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_toEndOf="@id/imgboxSup"
+            android:text="@string/str_terms_and_privacy"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/edt_def_hint_color"
+            android:fontFamily="@font/segoeui_0"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/notifiLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_below="@+id/termsLay"
+        android:layout_marginStart="@dimen/dp_15">
+        <ImageView
+            android:id="@+id/imgVnotificatin"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_22"
+            android:layout_centerVertical="true"
+            android:src="@drawable/login_tick_un"/>
+        <TextView
+            android:id="@+id/tvNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_12"
+            android:layout_marginEnd="@dimen/dp_12"
+            android:layout_toEndOf="@id/imgVnotificatin"
+            android:text="@string/tick_this_box_if_you_wish_to_receive_escalate_marketing_communications_to_your_email_address"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/edt_def_hint_color"
+            android:fontFamily="@font/segoeui_0"
+            />
+    </RelativeLayout>
+
+
+    <Button
+            android:id="@+id/btnSinUp"
+            android:layout_below="@id/notifiLay"
+            android:layout_width="@dimen/dp_170"
+            android:layout_height="@dimen/dp_52"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/sign_up"
+            android:textStyle="bold"
+            android:background="@drawable/btn_gradient"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:fontFamily="@font/segoeui_0"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_50"
+            android:textSize="@dimen/sp_20"
+        />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+</layout>

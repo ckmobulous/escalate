@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:id="@+id/bottomSheetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_300"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="@dimen/dp_300"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    tools:ignore="MissingDefaultResource"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20">
+    <TextView
+        android:id="@+id/bottomSheetHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp"
+        style="@style/MyTextView"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <ImageView
+        android:id="@+id/img_cancel_dialog"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/verification_close"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyTextView"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_15"
+            android:text="@string/the_otp_has_been_sent_to_your_email_address_please_input_the_number_to_proceed"/>
+
+    <android.support.v7.widget.CardView
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/cv1"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_1"
+        android:layout_marginLeft="@dimen/dp_1"
+        android:layout_marginBottom="@dimen/dp_1"
+        card_view:cardCornerRadius="@dimen/dp_10"
+        card_view:cardElevation="@dimen/dp_1"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edt_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyEditText"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginBottom="@dimen/dp_15"
+            android:layout_marginStart="@dimen/dp_10"
+            android:hint="@string/enter_digit"
+            android:imeOptions="actionDone"
+            android:cursorVisible="true"
+            android:paddingStart="@dimen/dp_20"
+            android:maxLength="6"
+            android:inputType="numberDecimal"
+            />
+    </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/txtResendOtp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyTextView"
+            android:textStyle="bold"
+            android:enabled="false"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp_14"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:text="@string/resend_otp"/>
+
+    </LinearLayout>
+</RelativeLayout>
+</layout>
